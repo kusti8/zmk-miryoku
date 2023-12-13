@@ -11,11 +11,15 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: babblesim
       url-base: https://github.com/BabbleSim
+    - name: kusti8
+      url-base: https://github.com/kusti8
   group-filter: [-babblesim]
   projects:
     - name: zephyr
-      remote: zmkfirmware
-      revision: v3.2.0+zmk-fixes
+      #remote: zmkfirmware
+      #revision: v3.2.0+zmk-fixes
+      remote: kusti8
+      revision: v3.0.0+zmk-fixes-suspend-test
       clone-depth: 1
       import:
         name-blocklist:

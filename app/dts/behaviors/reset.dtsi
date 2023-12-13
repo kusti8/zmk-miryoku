@@ -20,5 +20,11 @@
             type = <RST_UF2>;
             #binding-cells = <0>;
         };
-    };
+		suspend: behavior_reset_suspend {
+			compatible = "zmk,behavior-reset";
+			label = "SUSPEND";
+			type = <RST_SUSPEND>;
+			#binding-cells = <0>;
+		};
+	};
 };

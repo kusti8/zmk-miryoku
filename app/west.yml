@@ -19,7 +19,7 @@ manifest:
       #remote: zmkfirmware
       #revision: v3.2.0+zmk-fixes
       remote: kusti8
-      revision: v3.0.0+zmk-fixes-suspend-test
+      revision: v3.2.0+zmk-fixes
       clone-depth: 1
       import:
         name-blocklist:
